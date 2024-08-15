@@ -17,3 +17,18 @@ body{
     fill: #800000;
     
 }
+
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    .mapadiv {
+        width: 100%;
+    }
+
+    .mapadiv path {
+        width: 100%;
+    }
+
+}
