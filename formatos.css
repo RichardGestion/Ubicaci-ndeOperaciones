@@ -13,6 +13,11 @@ body{
     stroke-width: 2px;
 }
 
+.mapadiv path.Capital{
+    fill: #f34d00;
+    stroke: #cdfa03;
+    stroke-width: 2px;
+}
 .mapadiv :hover{
     fill: #800000;
     
@@ -28,6 +33,14 @@ body{
     }
 
     .mapadiv path {
+        width: 100%;
+    }
+
+    .path {
+        width: 100%;
+    }
+
+    .circle {
         width: 100%;
     }
 
